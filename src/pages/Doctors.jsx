@@ -9,7 +9,6 @@ const Doctors = () => {
   const [filterDoc, setFilterDoc] = useState([])
   const [showFilter, setShowFilter] = useState(false)
   const navigate = useNavigate();
-
   const { doctors } = useContext(AppContext)
 
   const applyFilter = () => {
